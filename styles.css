@@ -1,12 +1,15 @@
 html {
   box-sizing: border-box;
+  background-color: white ;
+  font-family: "Raleway", sans-serif;
 }
 
 .accom {
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   border-radius: 15px;
   padding: 10px;
 }
+
 
 .accom-card-wrap {
   display: flex;
@@ -15,18 +18,81 @@ html {
 }
 
 .accom-card {
-  background-color: blue;
+  background-color: white;
   border-radius: 15px;
   width: 25%;
   padding: 5px;
   margin-bottom: 20px;
 }
 
+.pop-card {
+  background-color: white ;
+  border-radius: 15px ;
+  width: 80% ;
+  height: 30%;
+  padding: 5px ;
+  margin-bottom: 20px ;
+}
+
+.mostpopular {
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 10px;
+  right: 200px;
+  width: 25%;
+}
+
+.pop-card-wrap {
+  display: flex ;
+  flex-direction: column ;
+  justify-content: space-around;
+  height: 800px; 
+}
+
 .accom-img {
-  width: 100%;
   border-radius: 15px 15px 0 0;
+  width: 100% ;
+  height:285px ;
 }
 
 .accom-price {
   font-weight: 700;
+}
+
+.pop-card-img {
+border-radius: 5px 5px 10px 10px;
+width: 45%;
+height: 200px;
+object-fit: cover;
+}
+
+.pop-card-price {
+  font-weight: 700;
+}
+
+
+.search-button {
+  background-color: #0065FC;
+  border-radius: 5px;
+}
+
+.bluestar {
+  color: blue;
+  display: inline-block;
+}
+
+.greystar {
+  color: #F2F2F2;
+}
+
+.bluebutton {
+  background-color:lightblue;
+  color: blue ;
+  border-radius: 30px ;
+}
+
+.filters {
+  border-radius: 25px ;
+  padding: 5px ;
+  background-color: white;
 }

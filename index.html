@@ -1,86 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/f69b739395.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>title in browser tab</title>
+    <title>Reservia</title>
     <!-- key value pairs -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="logo"><img src="images/logo/Reservia@3x.png" alt="logo"></a>
+        <a href="">Accomodataions</a>
+        <a href="">Activities</a>
+        <a href="">Sign Up</a>
       </nav>
+      <title>Find a place for your dream vacation</title>
+      <p>Downtown or in nature</p>
+      
+      <i class="fas fa-map-marker-alt"></i>
+      <input placeholder="Marseille, France" type="text">
+      <button class="search-button" type="button">Search</button>
     </header>
 
     <main>
-      <section class="accom">
-        <h2 class="accom-title">accomodataions in marseilles</h2>
+      <div>
+        <h4>Filters</h4>
+        <button class="filters"><i class="fas fa-money-bill-wave bluebutton"></i>Low cost</button>
+        <button class="filters"><i class="fas fa-child bluebutton"></i>Family-friendly</button>
+        <button class="filters"><i class="fas fa-heart bluebutton"></i>Romantic</button>
+        <button class="filters"><i class="fas fa-dog bluebutton"></i>Pets allowed</button>
 
+      <section class="accom">
+        <h2 class="accom-title">Accomodataions in Marseilles</h2>
         <div class="accom-card-wrap">
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
+              <img src="images/hebergements/4_small/auberge1.jpg"alt="hotelcard" class="accom-img"/>
               <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
               <p class="accom-card-description">
                 Night starting at <span class="accom-price">25&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <div class="rating">  
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star greystar"></i></div>
             </section>
     
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
-              <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
+              <img src="images/hebergements/4_small/hotelduport.jpg" alt="hotelcard" class="accom-img" />
+              <h3 class="accom-card-title">H&oacute;tel du port</h3>
               <p class="accom-card-description">
-                Night starting at <span class="accom-price">25&euro;</span>
+                Night starting at <span class="accom-price">52&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <div class="rating">  
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i></div>
             </section>
     
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
-              <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
+              <img src="images/hebergements/4_small/leshotel.jpg" alt="hotelcard" class="accom-img" />
+              <h3 class="accom-card-title">Les mouettes Hotel</h3>
               <p class="accom-card-description">
-                Night starting at <span class="accom-price">25&euro;</span>
+                Night starting at <span class="accom-price">76&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <div class="rating">  
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i>
+                <i class="fas fa-star greystar"></i></div>
             </section>
     
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
-              <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
+              <img src="images/hebergements/4_small/lamer.jpg" alt="hotelcard" class="accom-img" />
+              <h3 class="accom-card-title">H&oacute;tel de la mer</h3>
               <p class="accom-card-description">
-                Night starting at <span class="accom-price">25&euro;</span>
+                Night starting at <span class="accom-price">46&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <div class="rating">  
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star greystar"></i> 
+                <i class="fas fa-star greystar"></i></div>
             </section>
     
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
-              <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
+              <img src="images/hebergements/4_small/panier.jpg" alt="hotelcard" class="accom-img" />
+              <h3 class="accom-card-title">Auberge Le Panier</h3>
               <p class="accom-card-description">
-                Night starting at <span class="accom-price">25&euro;</span>
+                Night starting at <span class="accom-price">23&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <span>
+                <i class="fas fa-star bluestar"></i>  
+                <i class="fas fa-star bluestar"></i>  
+                <i class="fas fa-star bluestar"></i>  
+                <i class="fas fa-star bluestar"></i>  
+                <i class="fas fa-star greystar"></i>
+              </span>
             </section>
     
             <section class="accom-card">
-              <img src="images/circle.png" alt="" class="accom-img" />
-              <h3 class="accom-card-title">Auberge la Cannebi&#232;re</h3>
+              <img src="images/hebergements/4_small/amina.jpg" alt="hotelcard" class="accom-img" />
+              <h3 class="accom-card-title">H&oacute;tel chez Amina</h3>
               <p class="accom-card-description">
-                Night starting at <span class="accom-price">25&euro;</span>
+                Night starting at <span class="accom-price">96&euro;</span>
               </p>
-              <div class="rating">*****</div>
+              <div class="rating">  
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i> 
+                <i class="fas fa-star bluestar"></i></div>
             </section>
           </section>
         </div>
+
+        <div class="pop-card-wrap">
+          <section class="mostpopular">
+            <h2 class="populartitle">Most Popular</h2>
+            <section class="pop-card">
+              <img src="images/hebergements/4_small/morningsun.jpg"   alt="pophotel" class="pop-card-img"/>
+              <h3 class="pop-card-title">Morning Sun Hotel</h3>
+              <p class="pop-card-description"> Nights starting at<span class="pop-card-price">128&euro;</p></span>
+            </section>
+
+            <section class="pop-card">
+              <img src="images/hebergements/4_small/bedandbreakfast.jpg" alt="pophotel" class="pop-card-img"/>
+              <h3 class="pop-card-title">Au coeur de l'eau Bed and Breakfast</h3>
+              <p class="pop-card-description">Nights starting at<span class="pop-card-price"> 71&euro;</span></p>
+            </section>
+          
+          </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="about">
+        <header></header>
+        <p></p>
+        <p></p>
+        <p></p>
+      </section>
+    </footer>
   </body>
 </html>
