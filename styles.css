@@ -38,7 +38,9 @@ html {
   background-color: #F2F2F2;
   border-radius: 15px;
   padding: 10px;
-  right: 200px;
+  position: absolute;
+  left: 1900px;
+  top: 355px;
   width: 25%;
 }
 
@@ -74,6 +76,11 @@ object-fit: cover;
 .search-button {
   background-color: #0065FC;
   border-radius: 5px;
+}
+
+.searchbar {
+  border-radius: 5px;
+
 }
 
 .bluestar {
